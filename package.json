@@ -5,7 +5,7 @@
   "main": "./src/index.ts",
   "type": "module",
   "scripts": {
-    "start": "ts-node ./src/index.ts",
+    "start": "ts-node --experimental-specifier-resolution=node ./src/index.ts",
     "dev": "nodemon",
     "test": "jest",
     "test:watch": "npm test -- --watch"
@@ -20,5 +20,8 @@
     "ts-jest": "^29.0.5",
     "ts-node": "^10.9.1",
     "typescript": "^5.0.2"
+  },
+  "dependencies": {
+    "dedent-js": "^1.0.1"
   }
 }
