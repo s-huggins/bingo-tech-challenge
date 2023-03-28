@@ -5,13 +5,15 @@
   "main": "./src/index.ts",
   "type": "module",
   "scripts": {
-    "start": "ts-node ./src/index.ts"
+    "start": "ts-node ./src/index.ts",
+    "dev": "nodemon"
   },
   "keywords": [],
   "author": "Stuart Huggins",
   "license": "MIT",
   "devDependencies": {
     "ts-node": "^10.9.1",
-    "typescript": "^5.0.2"
+    "typescript": "^5.0.2",
+    "nodemon": "^2.0.22"
   }
 }
