@@ -6,14 +6,19 @@
   "type": "module",
   "scripts": {
     "start": "ts-node ./src/index.ts",
-    "dev": "nodemon"
+    "dev": "nodemon",
+    "test": "jest",
+    "test:watch": "npm test -- --watch"
   },
   "keywords": [],
   "author": "Stuart Huggins",
   "license": "MIT",
   "devDependencies": {
+    "@types/jest": "^29.5.0",
+    "jest": "^29.5.0",
+    "nodemon": "^2.0.22",
+    "ts-jest": "^29.0.5",
     "ts-node": "^10.9.1",
-    "typescript": "^5.0.2",
-    "nodemon": "^2.0.22"
+    "typescript": "^5.0.2"
   }
 }
